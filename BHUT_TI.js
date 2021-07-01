@@ -33,7 +33,7 @@ class FilterApplier {
         divisibleCheck.forEach(element => {
             value = filter[element] || value || number
         });
-        return value + ' - ' + number
+        return value
     }
 }
 
